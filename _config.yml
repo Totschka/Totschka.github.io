@@ -50,12 +50,14 @@ links:
       url: https://www.github.com/totschka
       new_tab: true
       key_trigger: g
+      ext: true
     #- title: twitter
     #  url: https://www.twitter.com/
     #  key_trigger: t
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
+      ext: true
 
 # projects in header index
 projects:
