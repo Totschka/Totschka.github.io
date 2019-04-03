@@ -1,6 +1,6 @@
 # Site settings
 title: Totschka
-description: "A blog about lorem ipsum ..."
+description: "Play with Tech Totschka Blog."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "http://totschka.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
@@ -13,7 +13,7 @@ github_username:  Totschka
 gplus_username:  Totschka
 linkedin_public_url: Totschka # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: Totschka
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+profile_picture: http://totschka.github.io/assets/img/profile.jpg
 
 # Build settings
 markdown: kramdown
