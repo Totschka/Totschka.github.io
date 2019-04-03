@@ -40,7 +40,8 @@
     {% for section in site.links %}
       <ul>
       {% for link in section[0] %}
-        <p>section0</p>
+        <p>{{ link.url }}</p>
+        <p>{{ link.title }}</p>
       {% endfor %}
       {% for link in section[1] %}
         {% if link.external %}
