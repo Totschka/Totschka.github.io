@@ -39,11 +39,13 @@
   <nav id="navigation" role="navigation">
     {% for section in site.links %}
       <ul>
+      {% for link in section[0] %}
+        <p>section0</p>
+      {% endfor %}
       {% for link in section[1] %}
         {% if link.external %}
             <li>
                 <a href="{{ link.url }}">{{ link.title }}</a>
-                <p>external</p>
             </li>
         {% else %}
             <li>
@@ -51,9 +53,10 @@
                 <svg viewBox="0 0 50 50" class="icon-arrow-menu">
                     <use xlink:href="#icon-right-arrow"></use>
                 </svg>
+                {% if link.external %}
                 <a key-trigger={{ link.key_trigger }}
                     href="{{ site.url }}{{ link.url }}"> {{ link.title }}</a>
-                    <p>normal</p>
+                {% endif %}
             </li>
         {% endif %}
       {% endfor %}
