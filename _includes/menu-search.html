@@ -52,7 +52,7 @@
                 </svg>
                 {% if link.ext %}
                 <a key-trigger={{ link.key_trigger }}
-                    href="{{ link.url }}"> {{ link.title }}</a>
+                    href="{{ link.url }}" target="_blank"> {{ link.title }}</a>
                 {% elseif link.search %}
                 <a id="searching" class="search"> {{ link.title }}</a>
                 {% else %}
