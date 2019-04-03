@@ -2,7 +2,7 @@
 title: Totschka
 description: "A blog about lorem ipsum ..."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://totschka.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+url: "http://totschka.github.io/space-jekyll-template" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: Totschka
