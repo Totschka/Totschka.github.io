@@ -4,5 +4,5 @@
 .search-wrapper {position: fixed;}
 body.search-overlay:after {position: fixed;}
 @media only screen and (max-width: 90.625rem){
-    #sideSlide .show {display: block;}
+    .show {display: block;}
 }
