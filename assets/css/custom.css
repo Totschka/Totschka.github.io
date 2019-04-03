@@ -1,8 +1,8 @@
 .tree-posts h3{margin-left:1rem;}
-#sideSlide {position:fixed; display: none; transition: all .25s ease;}
+#sideSlide {position:fixed; transition: all .25s ease; left: -10px;}
 .search-wrapper {position: fixed;}
 .search-wrapper {position: fixed;}
 body.search-overlay:after {position: fixed;}
 @media only screen and (max-width: 90.625rem){
-    .show {display: block;}
+    #sideSlide[class="show"] {left: 10px;}
 }
