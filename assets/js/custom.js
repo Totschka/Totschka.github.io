@@ -6,6 +6,7 @@ window.Zepto = Zepto, void 0 === window.$ && (window.$ = Zepto),
     }(Zepto, window);
 $(window).scroll(function() {
     var $btn = $("#sideSlide");
+    console.log($(this).scrollTop());
     if($(this).scrollTop() >= 400) $btn.addClass('show');
     else $btn.removeClass('show');
 })
