@@ -36,35 +36,32 @@ links:
     - title: my posts
       url: /posts
       key_trigger: 2
-    - title: series
-      url: /series
-      key_trigger: 3
-    - title: tags
-      url: /tags
-      key_trigger: 4
+    #- title: series
+    #  url: /series
+    #  key_trigger: 3
+    #- title: tags
+    #  url: /tags
+    #  key_trigger: 4
     - title: about me
       url: /about
-      key_trigger: 5
+      key_trigger: 3
   section_2:
     - title: github
       url: https://www.github.com/totschka
       new_tab: true
       key_trigger: g
-    - title: twitter
-      url: https://www.twitter.com/
-      key_trigger: t
+    #- title: twitter
+    #  url: https://www.twitter.com/
+    #  key_trigger: t
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  #- name: fluany
+  #  url: https://github.com/fluany/fluany
+  
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
