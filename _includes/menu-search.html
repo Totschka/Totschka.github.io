@@ -53,6 +53,8 @@
                 {% if link.ext %}
                 <a key-trigger={{ link.key_trigger }}
                     href="{{ link.url }}"> {{ link.title }}</a>
+                {% elseif link.search %}
+                <a id="searching" class="search"> {{ link.title }}</a>
                 {% else %}
                 <a key-trigger={{ link.key_trigger }}
                     href="{{ site.url }}{{ link.url }}"> {{ link.title }}</a>

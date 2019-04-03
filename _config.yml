@@ -58,6 +58,7 @@ links:
       url: ""
       key_trigger: s #WARNING: search only works with "s"
       ext: true
+      search: true
 
 # projects in header index
 projects:
