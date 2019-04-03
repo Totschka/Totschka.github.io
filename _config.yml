@@ -2,7 +2,7 @@
 title: Totschka
 description: "Play with Tech Totschka Blog."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://totschka.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+url: "https://totschka.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: Totschka
@@ -13,7 +13,7 @@ github_username:  Totschka
 gplus_username:  Totschka
 linkedin_public_url: Totschka # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: Totschka
-profile_picture: http://totschka.github.io/assets/img/profile.jpg
+profile_picture: https://totschka.github.io/assets/img/profile.jpg
 
 # Build settings
 markdown: kramdown
@@ -47,11 +47,11 @@ links:
       key_trigger: 5
   section_2:
     - title: github
-      url: http://www.github.com/totschka
+      url: https://www.github.com/totschka
       new_tab: true
       key_trigger: g
     - title: twitter
-      url: http://www.twitter.com/
+      url: https://www.twitter.com/
       key_trigger: t
     - title: search
       url: ""
