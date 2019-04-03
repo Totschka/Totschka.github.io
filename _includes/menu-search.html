@@ -43,6 +43,7 @@
         {% if link.external %}
             <li>
                 <a href="{{ link.url }}">{{ link.title }}</a>
+                <p>external</p>
             </li>
         {% else %}
             <li>
@@ -52,6 +53,7 @@
                 </svg>
                 <a key-trigger={{ link.key_trigger }}
                     href="{{ site.url }}{{ link.url }}"> {{ link.title }}</a>
+                    <p>normal</p>
             </li>
         {% endif %}
       {% endfor %}
