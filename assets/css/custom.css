@@ -1,7 +1,7 @@
 .tree-posts h3{margin-left:1rem;}
 #sideSlide {position:fixed;}
 .sideSlide {transition: all .25s ease; left: -50px;}
-#close {display: none;}
+#sClose {display: none;}
 .search-wrapper {position: fixed;}
 .search-wrapper {position: fixed;}
 body.search-overlay:after {position: fixed;}
