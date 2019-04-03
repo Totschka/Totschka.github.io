@@ -20,6 +20,14 @@
         var ldr = document.getElementById('disqus_loader');
     };
 
+    window.onload = function(e) {
+        if ((window.innerHeight) >= (document.body.offsetHeight - 800)) {
+            //if document length is shorter than window height
+            if (disqus_loaded==false)
+                load_disqus()
+        }
+    };
+
     window.onscroll = function(e) {
         if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
             //hit bottom of page
