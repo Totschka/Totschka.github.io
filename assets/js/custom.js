@@ -6,6 +6,6 @@ window.Zepto = Zepto, void 0 === window.$ && (window.$ = Zepto),
     }(Zepto, window);
 $(window).scroll(function() {
     var $btn = $("#sideSlide");
-    if($(this).scrollTop() >= $(".header-post").height()) $btn.addClass('show');
-    else $btn.removeClass('show');
+    if($(this).scrollTop() >= $(".header-post").height()) $btn.addClass('sidePop');
+    else $btn.removeClass('sidePop');
 })
