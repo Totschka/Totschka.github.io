@@ -38,10 +38,8 @@
 
   <nav id="navigation" role="navigation">
     {% for section in site.links %}
+    <p>{{ section }}</p>
       <ul>
-      {% for link in section[0] %}
-        <p>{{ section }}</p>
-      {% endfor %}
       {% for link in section[1] %}
         {% if link.external %}
             <li>
