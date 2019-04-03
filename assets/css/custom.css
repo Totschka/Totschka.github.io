@@ -1,2 +1,10 @@
 .tree-posts h3{margin-left:1rem;}
-#sideSlide {position:fixed;}
+#sideSlide {position:fixed; display: none;}
+.search-wrapper {position: fixed;}
+.search-wrapper {position: fixed;}
+body.search-overlay:after {position: fixed;}
+@media only screen and (max-width: 90.625rem){
+    #sideSlide {
+        display: block;
+    }
+}
