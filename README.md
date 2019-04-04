@@ -1,4 +1,4 @@
-# Space Jekyll
+# Totschka
 
 Play with Tech Totschka Blog.
 
