@@ -7,7 +7,7 @@ tags:
 - github
 description: 'Github Pages 시작'
 categories:
-- github
+- blabla
 ---
 
 ## 새롭게 시작하는 블로그
