@@ -2,4 +2,6 @@
 
 Play with Tech Totschka Blog.
 
-Some Bugs fixed and Some Fitures are added from [Space Jekyll theme](https://github.com/victorvoid/space-jekyll-template).
+Some Bugs in source theme are fixed and Some Features are added.
+
+Source : [Space Jekyll theme](https://github.com/victorvoid/space-jekyll-template).
