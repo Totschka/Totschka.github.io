@@ -16,6 +16,7 @@ body.search-overlay:after {position: fixed;}
 }
 .post-content p a {
     text-decoration: underline;
+    border-bottom: 0px;
 }
 .post-content p a code {
     color: #c4a3ff;
