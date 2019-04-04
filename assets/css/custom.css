@@ -8,9 +8,15 @@ body.search-overlay:after {position: fixed;}
 @media only screen and (max-width: 90.625rem){
     .sidePop {left: 10px;}
 }
-.post-content p code, .post-content li code, .highlighter-rouge {
+.post-content p code, .post-content li code {
     color: #ffffff;
     background: #2f2f33;
     border-radius: 5px;
     padding: 0.2em;
+}
+.post-content p a {
+    text-decoration: underline;
+}
+.post-content p a code {
+    color: #c4a3ff;
 }
