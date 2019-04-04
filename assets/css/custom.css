@@ -21,3 +21,10 @@ body.search-overlay:after {position: fixed;}
 .post-content p a code {
     color: #c4a3ff;
 }
+@media only screen and (max-width: 37.5rem) {
+    aside nav ul {
+        margin-right: 40px;
+        transition: all .25s ease;
+    }
+}
+
