@@ -10,7 +10,7 @@ body.search-overlay:after {position: fixed;}
 }
 .post-content p code, .post-content li code, .highlighter-rouge {
     color: #ffffff;
-    background: #3c0880;
-    border-radius: 10px;
+    background: #2f2f33;
+    border-radius: 5px;
     padding: 0.2em;
 }
