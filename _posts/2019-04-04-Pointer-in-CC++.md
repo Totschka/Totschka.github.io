@@ -59,7 +59,7 @@ int *p, p1;	// error?
 
 {% highlight C %}
 int* p = &i;
-int p1 = p;
+int p1 = p; // compile error
 {% endhighlight %}
 
 이를 통해 혼란을 방지할 수 있고, 컴파일러가 내뱉는 오류를 쉽게 고칠 수 있을 것이다.
