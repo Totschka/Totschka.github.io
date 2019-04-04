@@ -22,12 +22,12 @@ categories:
 
 결론부터 말하자면 **기능상의 차이는 없다**.
 
-```C
+{% highlight C %}
 int *p;
 int* p;
 int * p;
 int*p;
-```
+{% endhighlight %}
 
 처음 의문의 출발점이었던 두 표기법과 더불어 추가로 아래의 두 줄까지 더해, 위의 네 가지 코드는 같은 기능을 한다.
 
@@ -48,18 +48,18 @@ int*p;
 
 다만 한 줄에 여러 변수를 선언할 때 이것들이 문제가 된다.
 
-```C
+{% highlight C %}
 int* p, p1;	// p1은 int*인가?
 int *p, p1;	// error?
-```
+{% endhighlight %}
 
 위와 같은 선언은 혼란을 일으킨다.
 
 좋은 방법은 한 줄에 하나의 선언을 하는 것이다 :
 
-```C
+{% highlight C %}
 int* p = &i;
 int p1 = p;
-```
+{% endhighlight %}
 
 이를 통해 혼란을 방지할 수 있고, 컴파일러가 내뱉는 오류를 쉽게 고칠 수 있을 것이다.
