@@ -2,12 +2,10 @@
   <head>
     <script>
 
-      document.onload(function(){
-        window.addEventListener('click', function () {
-            var body = document.getElementsByTagName("body")[0];
-            body.style.transition = "all 1s";
-            body.style.backgroundColor = getRandomColor();
-        });
+      window.addEventListener('click', function () {
+          var body = document.getElementsByTagName("body")[0];
+          body.style.transition = "all 1s";
+          body.style.backgroundColor = getRandomColor();
       });
 
       var getRandomColor = function(_isAlpha) {
