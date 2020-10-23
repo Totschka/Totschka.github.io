@@ -1,36 +1,39 @@
 <html>
-<head>
-<script>
+  <head>
+    <script>
 
-window.addEventListener('click', function (){
-    var body = document.getElementsByTagName("body")[0];
-    body.style.backgroundColor = getRandomColor();
-});
-var getRandomColor = function(_isAlpha) {
-  let r = getRand(0, 255),
-  g = getRand(0, 255),
-  b = getRand(0, 255),
-  a = getRand(0, 10) / 10;
+      document.onload(function(){
+        window.addEventListener('click', function () {
+            var body = document.getElementsByTagName("body")[0];
+            body.style.transition = "all 1s";
+            body.style.backgroundColor = getRandomColor();
+        });
+      });
 
-  let rgb = _isAlpha ? 'rgba' : 'rgb';
-  rgb += '(' + r + ',' + g + ',' + b;
-  rgb += _isAlpha ? ',' + a + ')' : ')';
+      var getRandomColor = function(_isAlpha) {
+        let r = getRand(0, 255),
+        g = getRand(0, 255),
+        b = getRand(0, 255),
+        a = getRand(0, 10) / 10;
 
-  return rgb;
-}
-function getRand(min, max) {
-    if (min >= max) return false;
-    return ~~(Math.random() * (max - min + 1)) + min;
-  };
-  
-</script>
+        let rgb = _isAlpha ? 'rgba' : 'rgb';
+        rgb += '(' + r + ',' + g + ',' + b;
+        rgb += _isAlpha ? ',' + a + ')' : ')';
 
-</head>
+        return rgb;
+      }
 
-<body>
+      function getRand(min, max) {
+          if (min >= max) return false;
+          return ~~(Math.random() * (max - min + 1)) + min;
+      };
+    </script>
 
+  </head>
 
-</body>
+  <body>
+
+  </body>
 
 
 </html>
